@@ -3,3 +3,9 @@
 # Abstract
 
 Driven by the growing sophistication of quantum simulators for studying lattice gauge theories, it has become essential to understand the dynamical properties of Abelian gauge theories using classical methods. One notable property is the occurrence of quantum many-body scars, which weakly violate the eigenstate thermalisation hypothesis. In this work, we employ tensor networks to study the dynamics of these states under various perturbations of the Hamiltonian. By linking the resulting thermalisation to whether global, local, or no symmetries are broken, we identify distinct time-evolution signatures that can be used to pinpoint specific perturbations in an experiment. Moreover, these dynamics present also an interesting theoretical question as they could deliver insights into the limitations of the eigenstate thermalisation hypothesis. While the full theoretical implications remain an active area of research, we provide different diagnostic methods for experimental setups and highlight the outstanding question of how spectral symmetry could provide a mechanism to drive highly oscillatory dynamics at early times.
+
+# Code
+
+The repository contains both the exact diagonalisation and the tensor network codes. The former are written in Python and the letter in Julia and make use of the ITensors.jl framework. 
+Some functionalities may not work as they have not been used at later stages of the project and have therefore not been kept up to date. 
+We provide an example of how to use the exact diagonalisation code. The tensor network folder also contains the simulation outputs as an h5 file.
