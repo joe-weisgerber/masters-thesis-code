@@ -6,6 +6,6 @@ Driven by the growing sophistication of quantum simulators for studying lattice 
 
 # Code
 
-The repository contains both the exact diagonalisation and the tensor network codes. The former are written in Python and the letter in Julia and make use of the ITensors.jl framework. 
+The repository contains both the exact diagonalisation and the tensor network codes. The former are written in Python and the latter in Julia and make use of the ITensors.jl framework. 
 Some functionalities may not work as they have not been used at later stages of the project and have therefore not been kept up to date. 
-We provide an example of how to use the exact diagonalisation code. The tensor network folder also contains the simulation outputs as an h5 file.
+We provide an example of how to use the exact diagonalisation code. The tensor network folder also contains the simulation outputs for L=16 as an h5 file, which may take some time to run otherwise.
