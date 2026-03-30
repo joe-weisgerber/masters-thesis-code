@@ -8,4 +8,4 @@ Driven by the growing sophistication of quantum simulators for studying lattice 
 
 The repository contains both the exact diagonalisation and the tensor network codes. The former are written in Python and the latter in Julia and make use of the ITensors.jl framework. Typically, we refer to the potential as p, charge conjugation breaking as g, constraint breaking as cb and gauge breaking as gb. Some functionalities may not work as they have not been used at later stages of the project and have therefore not been kept up to date. 
 
-We provide an example of how to use the exact diagonalisation code. The tensor network folder contains a file simulate_and_measure.jl that was used as an interface to run the simulations. The folder also contains the simulation outputs for L=16 as an h5 file, which may take some time to run otherwise.
+We provide an example of how to use the exact diagonalisation code. The tensor network folder contains a file simulate_and_measure.jl that was used as an interface to run the simulations. The folder also contains the simulation outputs for L=16 as an h5 file as it may take some time to rerun the code for this ladder size.
